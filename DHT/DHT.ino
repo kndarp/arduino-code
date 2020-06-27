@@ -22,7 +22,7 @@ void loop(){
     Serial.print("%  ");
     Serial.print("T = ");
     Serial.print(DHT.temperature); 
-    Serial.println("C  ");
+    Serial.println("ºC  ");
     
     delay(5000); // wait some more before another reading
  
